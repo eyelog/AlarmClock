@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="3sp"
+    android:background="@android:color/white"
+    android:gravity="center"
+    android:padding="5dp"
+    android:textColor="@color/grey"
+    android:textSize="22sp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="5dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tv_alarm_note"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Name"
+            android:layout_weight="1"
+            android:textColor="@color/grey" />
+
+        <TextView
+            android:id="@+id/tv_alarm_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="time" />
+
+        <TextView
+            android:id="@+id/tv_alarm_days"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="days" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_height="match_parent"
+        android:layout_weight="0"
+        android:layout_width="16dp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/cb_alarm_active"
+        android:padding="10dp"
+        android:layout_weight="0"
+        android:focusable="false"/>
+
+</LinearLayout>

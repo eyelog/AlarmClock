@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/id_dialogRadioGroup">
+
+        <RadioButton
+            android:text="@string/theme_00_name"
+            android:layout_width="match_parent"
+            android:id="@+id/id_rb_00"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:checked="true" />
+
+        <RadioButton
+            android:text="@string/theme_01_name"
+            android:layout_width="match_parent"
+            android:id="@+id/id_rb_01"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:text="@string/theme_02_name"
+            android:layout_width="match_parent"
+            android:id="@+id/id_rb_02"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:text="@string/theme_03_name"
+            android:layout_width="match_parent"
+            android:id="@+id/id_rb_03"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:text="@string/theme_04_name"
+            android:layout_width="match_parent"
+            android:id="@+id/id_rb_04"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:text="@string/theme_05_name"
+            android:layout_width="match_parent"
+            android:id="@+id/id_rb_05"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+</LinearLayout>

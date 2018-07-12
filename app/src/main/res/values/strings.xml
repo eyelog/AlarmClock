@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">ЕГЭ Будильник</string>
+    <string name="alarms_list">Список будильников</string>
+    <string name="new_alarm">Новый будильник</string>
+    <string name="no_alarms">Нет будильников</string>
+
+    <string name="alert_btn_y">Спасибо!</string>
+    <string name="alert_btn_n">Изучить материал</string>
+
+    <string name="notification_title">Будильник.</string>
+
+    <string-array name="days_of_week">
+        <item>пн</item>
+        <item>вт</item>
+        <item>ср</item>
+        <item>чт</item>
+        <item>пт</item>
+        <item>сб</item>
+        <item>вс</item>
+    </string-array>
+
+    <string name="day_00">пн</string>
+    <string name="day_01">вт</string>
+    <string name="day_02">ср</string>
+    <string name="day_03">чт</string>
+    <string name="day_04">пт</string>
+    <string name="day_05">сб</string>
+    <string name="day_06">вс</string>
+
+    <string name="choose_value">Выбрать предмет</string>
+    <string name="choose_difficulty">Уровень сложности</string>
+    <string name="choose_diff_easy">Лёгкий уровень сложности</string>
+    <string name="choose_diff_norm">Средний уровень сложности</string>
+    <string name="choose_diff_hard">Трудный уровень сложности</string>
+
+    <string-array name="diff_free">
+        <item>Лёгкий уровень сложности</item>
+        <item>Средний уровень сложности</item>
+        <item>Трудный уровень сложности (платно)</item>
+    </string-array>
+
+    <string-array name="diff_paid">
+        <item>Лёгкий уровень сложности</item>
+        <item>Средний уровень сложности</item>
+        <item>Трудный уровень сложности</item>
+    </string-array>
+
+    <string name="ask_delete">Удалить будильник?</string>
+    <string name="delete">Удалить</string>
+    <string name="cancel">Отменить</string>
+    <string name="alarm_will_sing">Будильник зазвонит через:</string>
+    <string name="silent">Тишина</string>
+
+    <string name="simple_alarm">Просто будильник</string>
+    <string name="hole_week">Вся неделя</string>
+
+    <string name="alert_ring">Мелодия: </string>
+    <string name="alert_ring_def">по умолчанию</string>
+    <string name="alert_save">Сохранить</string>
+    <string name="alert_delete">Удалить будильник</string>
+    <string name="value">Предмет: </string>
+
+    <string name="alert_calm">Потише</string>
+    <string name="alert_later">Ну ещё 5 минут</string>
+    <string name="next_round">Следующий вопрос</string>
+
+    <string name="message_cool">Отлично, ты молодец</string>
+    <string name="message_good">Хорошо, но ты можешь лучше</string>
+    <string name="message_normal">Тебе нужно больше стараться</string>
+    <string name="message_bad">Плохо, продолжай работать над этим</string>
+</resources>
